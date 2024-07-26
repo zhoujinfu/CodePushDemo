@@ -1,3 +1,13 @@
+```
+$ code-push login http://api.code-push.com #登录code-push-server
+$ code-push app add CodePushReactNativeDemo-ios ios react-native  #iOS版
+$ code-push app add CodePushReactNativeDemo-android android react-native #android版
+$ cd code-push-demo-app
+$ npm install
+$ code-push release-react CodePushReactNativeDemo-ios ios -d Production #发布到code-push-server ios
+$ code-push release-react CodePushReactNativeDemo-android android -d Production #发布code-push-server android
+```
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
