@@ -1,0 +1,3 @@
+[submodule "react-native-code-push"]
+	path = react-native-code-push
+	url = https://github.com/microsoft/react-native-code-push.git
